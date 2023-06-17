@@ -52,7 +52,7 @@ The visualization produced by this SOM script is a powerful tool for understandi
 Each tile, or cell, in the grid represents a neuron in the Self-Organizing Map. Neurons are characterized by a weight vector of the same dimension as the input vectors (i.e., feature vectors from your dataset). The spatial position of a tile on the grid does not inherently hold a particular meaning; it is the relative distance between the tiles (neurons) that carries information. The neuron with the weight vector that is closest (in terms of Euclidean distance) to the input vector is designated as the Best Matching Unit (BMU) for that specific input vector. 
 
 ## Tile Color
-the color of a tile represents the similarity of the high-dimensional data points mapped to that node: lighter tiles signify more similarity among mapped input vectors, while darker tiles indicate a higher level of diversity or dissimilarity among the corresponding data points. The color gradient provides a comparative visualization of regional clusters on the map, rather than an absolute measure of similarity or dissimilarity.
+The color of a tile represents the similarity of the high-dimensional data points mapped to that node: lighter tiles signify more similarity among mapped input vectors, while darker tiles indicate a higher level of diversity or dissimilarity among the corresponding data points. The color gradient provides a comparative visualization of regional clusters on the map, rather than an absolute measure of similarity or dissimilarity.
 
 ## Markers
 The markers ('x' and 'o') are placed on all of the SOM's Best Matching Units to to denote whether the input data thats being mapping to a given winning neuron is either 'paying' ('o') or 'non-paying' ('x').
