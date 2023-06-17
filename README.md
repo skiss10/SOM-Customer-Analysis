@@ -6,6 +6,14 @@ This Python script analyzes workspace data and categorizes workspaces based on c
 
 A Self-Organizing Map (SOM) is a specific type of artificial neural network that utilizes unsupervised learning to transform complex, high-dimensional data into a simpler, often two-dimensional, representation. Introduced by Teuvo Kohonen, SOMs operate through two steps, namely training the network on input data to create a map, and subsequently using this map to classify new data.
 
+Here are some images and a blurb from wikipedia:
+
+[Alt Text](./docs/440px-TrainSOM.gif)
+
+[Alt Text](./docs/SOM_mapping.png)
+
+Above is an illustration of the training of a self-organizing map. The blue blob is the distribution of the training data, and the small white disc is the current training datum drawn from that distribution. At first (left) the SOM nodes are arbitrarily positioned in the data space. The node (highlighted in yellow) which is nearest to the training datum is selected. It is moved towards the training datum, as (to a lesser extent) are its neighbors on the grid. After many iterations the grid tends to approximate the data distribution (right).
+
 ## Process
 
 1. **Data Loading and Preprocessing**: The script first loads workspace data and processes it by converting date fields to datetime, calculating 'DaysSinceFirstSeen', and creating an 'is_paying' column. Features are then scaled using sklearn's MinMaxScaler.
