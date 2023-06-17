@@ -4,11 +4,7 @@ This Python script utilizes a Self-Organizing Map (SOM) to categorize customers 
 
 ## Context
 
-A Self-Organizing Map (SOM) is a specific type of artificial neural network that utilizes unsupervised learning to transform complex, high-dimensional data into a simpler, often two-dimensional, representation. Introduced by Teuvo Kohonen, SOMs operate through two steps, namely training the network on input data to create a map, and subsequently using this map to classify new data.
-
-Below is an illustration of the training process for a self-organizing map (courtesy of wikipedia - https://en.wikipedia.org/wiki/Self-organizing_map). The blue blob is the distribution of the training data, and the small white disc is the current training data drawn from that distribution. At first (left) the SOM nodes are arbitrarily positioned in the data space. The node (highlighted in yellow) which is nearest to the training datum is selected. It is moved towards the training datum, as (to a lesser extent) are its neighbors on the grid. After many iterations the grid tends to approximate the data distribution (right).
-
-![SOM training image](./docs/SOM_mapping.png)
+A Self-Organizing Map (SOM) is a specific type of artificial neural network that utilizes unsupervised learning to transform complex, high-dimensional data into a simpler, often two-dimensional, representation.
 
 ## Process
 
