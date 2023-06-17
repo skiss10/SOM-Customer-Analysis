@@ -8,9 +8,9 @@ A Self-Organizing Map (SOM) is a specific type of artificial neural network that
 
 Here are some images and a blurb from wikipedia:
 
-[Alt Text](./docs/440px-TrainSOM.gif)
+![SOM training image 1](./docs/440px-TrainSOM.gif)
 
-[Alt Text](./docs/SOM_mapping.png)
+![SOM training image 2](./docs/SOM_mapping.png)
 
 Above is an illustration of the training of a self-organizing map. The blue blob is the distribution of the training data, and the small white disc is the current training datum drawn from that distribution. At first (left) the SOM nodes are arbitrarily positioned in the data space. The node (highlighted in yellow) which is nearest to the training datum is selected. It is moved towards the training datum, as (to a lesser extent) are its neighbors on the grid. After many iterations the grid tends to approximate the data distribution (right).
 
