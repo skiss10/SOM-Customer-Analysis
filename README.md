@@ -1,6 +1,6 @@
 # Payment Behavior Analysis with Self-Organizing Maps (SOM)
 
-This Python script analyzes workspace data and categorizes workspaces based on certain features such as `NumberOfMyCompanyConsoleCalls_CurrentMonth`, `NumberOfAPICalls_CurrentMonth`, `PlanPrice` and more. This is achieved by implementing a Self-Organizing Map (SOM), visualizing it, and finally assigning categories based on the percentage of paying workspaces in each Best Matching Unit (BMU).
+This Python script utilizes a Self-Organizing Map (SOM) to categorize customers of a SaaS platform according to their workspace usage behavior. By grouping user's workspaces into clusters of similar usage patterns, I was able to target my sales efforts on users that were most likely to uplift their payment plan.
 
 ## Context
 
