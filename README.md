@@ -44,7 +44,7 @@ You can run the script using the following command:
 python platform_payment_som.py
 ```
 
-# Understanding the Results of the Self-Organizing Map (SOM) Script
+# Understanding the Results
 
 The visualization produced by this SOM script is a powerful tool for understanding high-dimensional data in two dimensions. Here, we will explain the key components of the visualization:
 
@@ -61,6 +61,14 @@ The markers ('x' and 'o') are placed on all of the SOM's Best Matching Units to 
 The size of the markers indicates the logarithmic count of data points associated with that particular winning neuron (tile). A larger marker size implies that a higher number of input data points are mapped to that neuron in the SOM. Logarithmic scaling was used to reduce skewness in the visualization - This means that differences in counts are more visually discernible even when there's a large disparity in counts. 
 
 By understanding these elements, we can analyze the output of the SOM more effectively, discern patterns in the data, and make more informed decisions based on those patterns.
+
+In particular, I was looking for:
+
+- Input data mapping to lighter color tiles (BMUs with similar input data).
+- Tiles containing both x's and o's (indicating the presence of both paying and non-paying customers).
+- Tiles with bigger o's than x's (indicating a higher number of paying customers compared to non-paying customers).
+
+From there, I proceeded to target the non-paying customers within those light-tiled BMUs.
 
 # Credits
 
