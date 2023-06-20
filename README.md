@@ -1,6 +1,10 @@
 # Payment Behavior Analysis with Self-Organizing Maps (SOM)
 
-This Python script utilizes a Self-Organizing Map (SOM) to categorize customers of a SaaS platform according to their workspace usage behavior. By grouping user's workspaces into clusters of similar usage patterns, I was able to target my sales efforts towards users that were most likely to uplift their payment plan.
+This Python script utilizes a Self-Organizing Map (SOM) to categorize customers of a SaaS platform according to their workspace usage behavior. 
+
+![image](https://github.com/skiss10/SOM-Customer-Analysis/assets/31713441/5472596d-28fd-420c-9228-27a7044023b4)
+
+By grouping user's workspaces into clusters of similar usage patterns, I was able to target my sales efforts towards users that were most likely to uplift their payment plan.
 
 ## Context
 
