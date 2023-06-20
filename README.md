@@ -2,8 +2,6 @@
 
 This Python script utilizes a Self-Organizing Map (SOM) to categorize customers of a SaaS platform according to their workspace usage behavior. 
 
-![image](https://github.com/skiss10/SOM-Customer-Analysis/assets/31713441/5472596d-28fd-420c-9228-27a7044023b4)
-
 By grouping user's workspaces into clusters of similar usage patterns, I was able to target my sales efforts towards users that were most likely to uplift their payment plan.
 
 ## Context
@@ -50,7 +48,9 @@ python platform_payment_som.py
 
 # Understanding the Results
 
-The visualization produced by this SOM script is a powerful tool for understanding high-dimensional data in two dimensions. Here, we will explain the key components of the visualization:
+The visualization produced by this SOM script is a powerful tool for understanding high-dimensional data in two dimensions. Here, we will explain the key components of the visualization.
+
+![image](https://github.com/skiss10/SOM-Customer-Analysis/assets/31713441/5472596d-28fd-420c-9228-27a7044023b4)
 
 ## Tiles
 Each tile, or cell, in the grid represents a neuron in the Self-Organizing Map. Neurons are characterized by a weight vector of the same dimension as the input vectors (i.e., feature vectors from your dataset). The spatial position of a tile on the grid does not inherently hold a particular meaning; it is the relative distance between the tiles (neurons) that carries information. The neuron with the weight vector that is closest (in terms of Euclidean distance) to the input vector is designated as the Best Matching Unit (BMU) for that specific input vector. 
